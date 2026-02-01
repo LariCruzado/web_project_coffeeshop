@@ -192,8 +192,8 @@
   margin-top: 100px;
   margin-bottom: 80px;
   margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .reservation__form {
   max-width: 385px;
