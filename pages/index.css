@@ -189,11 +189,14 @@
   line-height: 52px;
   color: #000000;
   text-align: center;
+  margin-top: 100px;
   margin-bottom: 80px;
 }
 .reservation__form {
   max-width: 385px;
   margin: 0 auto;
+  border: 0;
+  outline: none;
 }
 
 .reservation label {
@@ -204,25 +207,23 @@
   line-height: 20px;
   color: #000000;
   display: block;
-  margin-bottom: 32px;
+  margin-bottom: 8px;
 }
 
 .reservation__label[for="termos"] {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-top: 20px;
+  margin-bottom: 0;
+}
+.reservation__label[for="termos"] input {
+  margin: 0;
+  transform: translateY(-1px);
 }
 
 .reservation__label[for="termos"] input[type="checkbox"] {
   width: 20px;
   height: 20px;
-  margin: 0;
-}
-
-.reservation__label[for="termos"] input {
-  margin: 0;
-  transform: translateY(-1px);
 }
 
 .reservation__form input {
@@ -259,7 +260,7 @@
   padding: 20px;
   width: 100%;
   cursor: pointer;
-  margin-top: 60px;
+  margin-bottom: 32px;
 }
 .reservation__button:hover {
   opacity: 0.7;
