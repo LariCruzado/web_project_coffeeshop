@@ -195,8 +195,6 @@
 .reservation__form {
   max-width: 385px;
   margin: 0 auto;
-  border: 0;
-  outline: none;
 }
 
 .reservation label {
